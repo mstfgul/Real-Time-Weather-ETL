@@ -1,9 +1,3 @@
----
-noteId: "e324e360d24411f0b88af55be93658d8"
-tags: []
-
----
-
 # 🌦️ Real-Time Weather Data Pipeline
 
 A production-ready, end-to-end real-time data engineering project that collects weather data from multiple cities worldwide, processes it through a streaming pipeline, stores it in a data lake and analytical database, and visualizes it through interactive dashboards.
@@ -73,16 +67,16 @@ This project demonstrates a complete real-time data engineering solution that:
 
 ## 🛠️ Tech Stack
 
-| Component | Technology | Purpose |
-|-----------|-----------|---------|
-| **Data Collection** | Python 3.13 | Weather API integration |
-| **API** | Open-Meteo API | Free weather data source |
-| **Message Broker** | Apache Kafka 7.5.0 | Stream processing |
-| **Processing Engine** | Apache Spark 3.5.0 | Real-time ETL |
-| **Data Lake** | MinIO (S3-compatible) | Raw data storage (Parquet) |
-| **Database** | PostgreSQL 15 | Analytical queries |
-| **Orchestration** | Docker Compose | Service management |
-| **Visualization** | Metabase | Interactive dashboards |
+| Component             | Technology            | Purpose                    |
+| --------------------- | --------------------- | -------------------------- |
+| **Data Collection**   | Python 3.13           | Weather API integration    |
+| **API**               | Open-Meteo API        | Free weather data source   |
+| **Message Broker**    | Apache Kafka 7.5.0    | Stream processing          |
+| **Processing Engine** | Apache Spark 3.5.0    | Real-time ETL              |
+| **Data Lake**         | MinIO (S3-compatible) | Raw data storage (Parquet) |
+| **Database**          | PostgreSQL 15         | Analytical queries         |
+| **Orchestration**     | Docker Compose        | Service management         |
+| **Visualization**     | Metabase              | Interactive dashboards     |
 
 ## ✨ Features
 
@@ -303,13 +297,13 @@ WHERE id IN (
 
 ### Service Endpoints
 
-| Service | URL | Credentials |
-|---------|-----|-------------|
-| Spark Master UI | http://localhost:8080 | - |
-| MinIO Console | http://localhost:9001 | minioadmin / minioadmin |
-| Metabase | http://localhost:3000 | Setup on first access |
-| PostgreSQL | localhost:5433 | weather_user / weather_pass |
-| Kafka | localhost:9092 | - |
+| Service         | URL                   | Credentials                 |
+| --------------- | --------------------- | --------------------------- |
+| Spark Master UI | http://localhost:8080 | -                           |
+| MinIO Console   | http://localhost:9001 | minioadmin / minioadmin     |
+| Metabase        | http://localhost:3000 | Setup on first access       |
+| PostgreSQL      | localhost:5433        | weather_user / weather_pass |
+| Kafka           | localhost:9092        | -                           |
 
 ### Health Checks
 
