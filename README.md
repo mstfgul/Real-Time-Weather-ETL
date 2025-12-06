@@ -386,8 +386,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 **Mustafa Gul**
 - GitHub: [@mstfgul](https://github.com/mstfgul)
-- LinkedIn: [Add your LinkedIn]
-- Portfolio: [Add your portfolio site]
 
 ## 🙏 Acknowledgments
 
