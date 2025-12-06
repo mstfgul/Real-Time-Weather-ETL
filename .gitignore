@@ -37,3 +37,6 @@ Thumbs.db
 
 # Metabase
 metabase.db/
+
+#claude
+.claude/
