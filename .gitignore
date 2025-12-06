@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Data files
+data/raw/*
+data/processed/*
+data/checkpoint/*
+!data/checkpoint/.gitkeep
+*.csv
+*.parquet
+
+# Docker
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Metabase
+metabase.db/
